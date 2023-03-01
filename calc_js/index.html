@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title>calcolatrice javascript</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <!-- guti industries code -->
+        <div class="container">
+            <input type="text" id="risultato" readonly="readonly">
+            <div class="operatori">
+                <button id="7" value="7" onclick="n(this.id)">
+                    7
+                </button>
+                <button id="8" value="8" onclick="n(this.id)">
+                    8
+                </button>
+                <button id="9" value="9" onclick="n(this.id)">
+                    9
+                </button>
+                <button id="/" value="/" onclick="n(this.id)">
+                    /
+                </button>
+                <button id="4" value="4" onclick="n(this.id)">
+                    4
+                </button>
+                <button id="5" value="5" onclick="n(this.id)">
+                    5
+                </button>
+                <button id="6" value="6" onclick="n(this.id)">
+                    6
+                </button>
+                <button id="*" value="X" onclick="n(this.id)">
+                    x
+                </button>
+                <button id="1" value="1" onclick="n(this.id)">
+                    1
+                </button>
+                <button id="2" value="2" onclick="n(this.id)">
+                    2
+                </button>
+                <button id="3" value="3" onclick="n(this.id)">
+                    3
+                </button>
+                <button id="-" value="-" onclick="n(this.id)">
+                    -
+                </button>
+                <button id="C" value="C" onclick="cancella()">
+                    C
+                </button>
+                <button id="0" value="0" onclick="n(this.id)">
+                    0
+                </button>
+                <button id="." value="." onclick="n(this.id)">
+                    .
+                </button>
+                <button id="+" value="+" onclick="n(this.id)">
+                    +
+                </button>
+                <button id="uguale" value="=" onclick="operazione()">
+                    =
+                </button>
+                <input type="color" id="colori" onchange="document.body.style.background = this.value">
+                <!-- <button id="random" onclick="random()">Cambia sfondo</button> -->
+            </div>
+            <!-- <button id="sfondo" onclick="cambia()">cambia<br/> sfondo</button> -->
+        </div>
+        <script src="index.js"></script>
+        <!-- <input type="color" id="colori" onchange="document.body.style.background = this.value"> -->
+    </body>
+</html>
